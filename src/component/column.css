@@ -1,0 +1,25 @@
+/* src/components/Column.css */
+.column {
+  width: 200px;
+  margin: 10px;
+}
+
+.scrollable-column {
+  max-height: 400px;
+  overflow-y: auto; /* Vertical scroll for card items */
+}
+
+.card {
+  margin-bottom: 10px;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

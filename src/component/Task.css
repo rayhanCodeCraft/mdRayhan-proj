@@ -1,0 +1,64 @@
+.task {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.task:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.client-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.assignee {
+  display: flex;
+  align-items: center;
+}
+
+.assignee img {
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.task-body {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.attachment {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.icons i {
+  margin-right: 4px;
+  color: #555;
+}
+
+.date {
+  color: #888;
+}
